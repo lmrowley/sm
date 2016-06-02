@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+}
+
+#temperature {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+
+	color: white;
+	font-size: 50px;
+	font-family:lato;
+	font-weight: 200;
+
+}
+#weatherIcon{
+	position: absolute;
+	left: 140px;
+	top:50px;
+	width: 75px;
+	height: 75px;
+	-webkit-filter: sepia(1) hue-rotate(200deg);
+    filter: sepia(1) hue-rotate(200deg);
+}
+
+#time {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+
+	color: white;
+	font-size: 50px;
+	font-family:lato;
+	font-weight: 200;
+
+}
+
+#name {
+	position: absolute;
+	left: 140px;
+	top:70px;
+
+	color: white;
+	font-size: 50px;
+	font-family:lato;
+	font-weight: 200;
+
+}
