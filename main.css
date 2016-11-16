@@ -1,38 +1,96 @@
-body {
+html , body {
 	background-color: black;
+
 }
 
 #temperature {
 	position: absolute;
 	left: 10px;
-	top: 5px;
+	top: 0px;
+	margin-top: 5px;
+	color: white;
+	font-size: 120px;
+	font-family: Gotham;
+	font-weight: 100;
+
+}
+
+#todayHi {
+	position: absolute;
+	left: 30px;
+	top: 90px;
 
 	color: white;
-	font-size: 50px;
-	font-family:lato;
+	font-size: 40px;
+	font-family:Gotham;
 	font-weight: 200;
 
 }
+
+#todayLo {
+	position: absolute;
+	left: 180px;
+	top: 90px;
+
+	color: white;
+	font-size: 40px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+#todaysForecast {
+	position: absolute;
+	left: 10px;
+	top: 150px;
+
+	color: white;
+	font-size: 15px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+
+
+#tomorrowsForecast {
+	position: absolute;
+	left: 30px;
+	top: 160px;
+
+	color: white;
+	font-size: 25px;
+	font-family:Gotham;
+	font-weight: 200;
+}
+
 #weatherIcon{
 	position: absolute;
-	left: 140px;
-	top:50px;
-	width: 75px;
-	height: 75px;
-	-webkit-filter: sepia(1) hue-rotate(200deg);
-    filter: sepia(1) hue-rotate(200deg);
+	left: 330px;
+	top: 10px;
+	width: 130px;
+	height: 130px;
 }
 
 #time {
 	position: absolute;
-	right: 25px;
+	right: 60px;
 	top: 5px;
-
+	margin-top: 5px;
 	color: white;
-	font-size: 50px;
-	font-family:lato;
-	font-weight: 200;
+	font-size: 90px;
+	font-family:Gotham;
+	font-weight: 100;
 
+}
+#amorpm{
+position: absolute;
+	right: 20px;
+	top: 50px;
+	color: white;
+	font-size: 24px;
+	font-family:Gotham;
+	font-weight: 100;
 }
 
 #name {
@@ -42,7 +100,21 @@ body {
 
 	color: white;
 	font-size: 50px;
-	font-family:lato;
+	font-family:Gotham;
 	font-weight: 200;
 
 }
+
+#news {
+	white-space: nowrap;
+	position: absolute;
+	right: 400px;
+	top: 25px;
+	color: white;
+	font-size: 30px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+
