@@ -6,7 +6,7 @@ html , body {
 #temperature {
 	position: absolute;
 	left: 10px;
-	top: 0px;
+	top: 50px;
 	margin-top: 5px;
 	color: white;
 	font-size: 120px;
@@ -18,7 +18,7 @@ html , body {
 #todayHi {
 	position: absolute;
 	left: 30px;
-	top: 90px;
+	top: 140px;
 
 	color: white;
 	font-size: 40px;
@@ -30,7 +30,7 @@ html , body {
 #todayLo {
 	position: absolute;
 	left: 180px;
-	top: 90px;
+	top: 140px;
 
 	color: white;
 	font-size: 40px;
@@ -42,7 +42,7 @@ html , body {
 #todaysForecast {
 	position: absolute;
 	left: 10px;
-	top: 150px;
+	top: 200px;
 
 	color: white;
 	font-size: 15px;
@@ -56,7 +56,7 @@ html , body {
 #tomorrowsForecast {
 	position: absolute;
 	left: 30px;
-	top: 160px;
+	top: 210px;
 
 	color: white;
 	font-size: 25px;
@@ -67,7 +67,7 @@ html , body {
 #weatherIcon{
 	position: absolute;
 	left: 330px;
-	top: 10px;
+	top: 60px;
 	width: 130px;
 	height: 130px;
 }
@@ -75,7 +75,7 @@ html , body {
 #time {
 	position: absolute;
 	right: 60px;
-	top: 5px;
+	top: 55px;
 	margin-top: 5px;
 	color: white;
 	font-size: 90px;
@@ -86,7 +86,7 @@ html , body {
 #amorpm{
 position: absolute;
 	right: 20px;
-	top: 50px;
+	top: 100px;
 	color: white;
 	font-size: 24px;
 	font-family:Gotham;
@@ -96,7 +96,7 @@ position: absolute;
 #name {
 	position: absolute;
 	left: 140px;
-	top:70px;
+	top:120px;
 
 	color: white;
 	font-size: 50px;
@@ -108,7 +108,7 @@ position: absolute;
 #news {
 	white-space: nowrap;
 	position: absolute;
-	right: 400px;
+	right: 10px;
 	top: 25px;
 	color: white;
 	font-size: 30px;
@@ -116,5 +116,13 @@ position: absolute;
 	font-weight: 200;
 
 }
-
+.marquee {
+	position: absolute;
+	right: 0px;
+	top:25px;
+ 	width: 1400px;
+ 	overflow: hidden;
+  	background: black;
+  	color: black;
+}
 
