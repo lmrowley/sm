@@ -13,10 +13,21 @@ jQuery(document).ready(function($) {
     storyCount++;
     }
   
-  
   $("#news").text(newsStories);
   console.log(newsStories); 
+
+  $(function() {
+  $('.marquee').marquee({
+    duration: 30000,
+    startVisible: true,
+    duplicated: true
+  });
+});
+  
+  
+
   }
+
 
 
   });
